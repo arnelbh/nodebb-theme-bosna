@@ -1,7 +1,7 @@
 {
-    "name": "nodebb-theme-quickstart",
+    "name": "nodebb-theme-bosna",
     "version": "0.1.0",
-    "description": "Enter a description here",
+    "description": "Bosna theme based on Harmony theme",
     "main": "lib/theme.js",
     "keywords": [],
     "license": "MIT",
@@ -28,5 +28,18 @@
         "eslint-plugin-import": "2.x",
         "husky": "5.0.9",
         "lint-staged": "10.5.4"
-    }
+    },
+    "author": {
+    "name": "Arnel Hodzic",
+    "email": "arnel@hodzic.at",
+    "url": "https://hodzic.at"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/arnelbh/nodebb-theme-bosna"
+    },
+    "bugs": {
+        "url": "https://github.com/arnelbh/nodebb-theme-bosna/issues"
+    },
+    "screenshot": "ljiljan.png"
 }
