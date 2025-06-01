@@ -1,0 +1,42 @@
+#mobileTopicTitle .topic-container {
+	display: flex;
+	width: 100%;
+	align-items: left;
+}
+
+#mobileTopicTitle .topic-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%; /* or set a fixed height like 50px if needed */
+}
+
+.topic-container .topic-label {
+	flex: 0 0 70%;
+	display: flex;
+	align-items: left;
+	font-size: 1rem;
+	overflow: hidden;
+}
+
+.topic-container .topic-tag {
+	flex: 0 0 30%;
+	display: flex;
+	align-items: left;
+	font-size: 0.65rem;
+	overflow: hidden;
+}
+
+
+@media (min-width: 992px) {
+    div:has(> div > [component="post/header"]) {
+        position: sticky;
+        top: 0rem;
+        background-color: white;
+        z-index: 3;
+        padding: 0.25rem 0;
+    }
+}
+
+.sticky-top[style="top:2rem; z-index:1;"] {
+    top: 9rem !important;
+}

@@ -11,6 +11,7 @@
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="enableBreadcrumbs" name="enableBreadcrumbs" />
 					<label for="enableBreadcrumbs" class="form-check-label">[[themes/harmony:settings.enableBreadcrumbs]]</label>
+					<p class="form-text">[[themes/harmony:settings.enableBreadcrumbs.why]]</p>
 				</div>
 				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="centerHeaderElements" name="centerHeaderElements" />
@@ -30,12 +31,27 @@
 					</div>
 				</div>
 				<div class="form-check form-switch">
+					<input type="checkbox" class="form-check-input" id="topicSidebarTools" name="topicSidebarTools" />
+					<div for="topicSidebarTools" class="form-check-label">
+						[[themes/harmony:settings.topicSidebarTools]]
+						<p class="form-text">
+							[[themes/harmony:settings.topicSidebarTools.help]]
+						</p>
+					</div>
+				</div>
+				<div class="form-check form-switch">
 					<input type="checkbox" class="form-check-input" id="autohideBottombar" name="autohideBottombar" />
 					<div for="autohideBottombar" class="form-check-label">
 						[[themes/harmony:settings.autohideBottombar]]
 						<p class="form-text">
 							[[themes/harmony:settings.autohideBottombar.help]]
 						</p>
+					</div>
+				</div>
+				<div class="form-check form-switch">
+					<input type="checkbox" class="form-check-input" id="topMobilebar" name="topMobilebar" />
+					<div for="topMobilebar" class="form-check-label">
+						[[themes/harmony:settings.topMobilebar]]
 					</div>
 				</div>
 				<div class="form-check form-switch">
@@ -46,6 +62,12 @@
 					<input type="checkbox" class="form-check-input" id="chatModals" name="chatModals" />
 					<div for="chatModals" class="form-check-label">
 						[[themes/harmony:settings.chatModals]]
+					</div>
+				</div>
+				<div class="form-check form-switch">
+					<input type="checkbox" class="form-check-input" id="topicInfoInMobilebar" name="topicInfoInMobilebar" />
+					<div for="topicInfoInMobilebar" class="form-check-label">
+						[[themes/harmony:settings.topicInfoInMobilebar]]
 					</div>
 				</div>
 			</form>
