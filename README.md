@@ -35,7 +35,7 @@ Be sure to add some other metadata to the `package.json`, like this:
 Also, add a screenshot! Take a picture of your theme, and save it as "screenshot.png" in the root of your theme folder, then add this to `theme.json`:
 
 ``` json
-"screenshot": "screenshot.png"
+"screenshot": "ljiljan.png"
 ```
 
 ### Credits

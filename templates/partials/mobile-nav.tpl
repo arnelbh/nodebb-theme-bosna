@@ -96,7 +96,7 @@
 			</ul>
 			{{{ end }}}
 		</div>
-		
+
 		{{{ if config.theme.topicInfoInMobilebar }}}
 		<div>
 			<a href="#" role="button" class="nav-link d-flex justify-content-between align-items-center position-relative" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
