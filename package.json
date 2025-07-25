@@ -1,6 +1,6 @@
 {
     "name": "nodebb-theme-bosna",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "Bosna theme based on Harmony theme",
     "main": "lib/theme.js",
     "keywords": [],
@@ -18,21 +18,22 @@
         ]
     },
     "dependencies": {
+        "nodebb-theme-bosna": "^0.1.9"
     },
     "devDependencies": {
         "@commitlint/cli": "11.0.0",
         "@commitlint/config-angular": "11.0.0",
-        "eslint": "8.4.0",
-        "eslint-config-airbnb-base": "14.2.1",
+        "eslint": "8.x",
+        "eslint-config-airbnb-base": "15.0.0",
         "eslint-config-nodebb": "0.1.1",
         "eslint-plugin-import": "2.x",
         "husky": "5.0.9",
         "lint-staged": "10.5.4"
     },
     "author": {
-    "name": "Arnel Hodzic",
-    "email": "arnel@hodzic.at",
-    "url": "https://hodzic.at"
+        "name": "Arnel Hodzic",
+        "email": "arnel@hodzic.at",
+        "url": "https://hodzic.at"
     },
     "repository": {
         "type": "git",
