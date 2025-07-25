@@ -1,6 +1,6 @@
 {
     "name": "nodebb-theme-bosna",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "Bosna theme based on Harmony theme",
     "main": "lib/theme.js",
     "keywords": [],
